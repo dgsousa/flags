@@ -1,0 +1,26 @@
+.diagram {
+	position: relative;
+	width: 1500px;
+	height: 1000px;
+	margin: auto;
+	border: 1px solid black;
+
+}
+
+.node {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 2px;
+}
+
+.link {
+    stroke: #777;
+    stroke-width: 2px;
+}
+
+.flags {
+	z-index: 10;
+	width: 25px;
+	height: 15px;
+}
+
