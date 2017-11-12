@@ -8,7 +8,7 @@ module.exports = {
 		vendor: ['d3']
 	},
 	output: {
-		path: 'public',
+		path: __dirname + '/public',
 		filename: 'bundle.js'
 	},
 
